@@ -1,3 +1,10 @@
 [
-  "test_dell_user_data.py::test_del_some_user_data"
+  "test_dell_user_data.py::test_del_some_user_data[0]",
+  "test_dell_user_data.py::test_del_some_user_data[1]",
+  "test_dell_user_data.py::test_del_some_user_data[2]",
+  "test_dell_user_data.py::test_del_some_user_data[3]",
+  "test_dell_user_data.py::test_del_some_user_data[4]",
+  "test_dell_user_data.py::test_del_some_user_data[5]",
+  "test_dell_user_data.py::test_del_some_user_data[6]",
+  "test_dell_user_data.py::test_del_some_user_data[7]"
 ]

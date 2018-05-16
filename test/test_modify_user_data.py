@@ -1,7 +1,7 @@
 from model.postaldata import Postaldata
 from random import randrange
 
-def test_modify_first_user_data(app):
+def modify_first_user_data(app):
     if app.postaldata.count_user_data() == 0:
         app.postaldata.create_user_data(Postaldata(country="Ukraine", name="Ilyk Stepan", street="Lazarenka str", num_house="23", city="Lviv", state="Lviv reg", zip="82100", phone="0938211673"))
     old_postaldata_list = app.postaldata.count_postal_data_object_list()

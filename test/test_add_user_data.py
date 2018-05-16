@@ -12,9 +12,10 @@ def rand_str(prefix, maxlen):
 #counry_list[]
 #[Postaldata(country="Algeria", name="Jhon Travolta", street="Shev4enka str", num_house="12", city="Drogobych",state="Lviv reg", zip=12300, phone="0978339274")] +
 
-testdata = [Postaldata(country="Ukraine", name=rand_str("name", 20), street=rand_str("street", 20),
-                            num_house=rand_str("num", 20), city=rand_str("city", 20), state=rand_str("state", 20),
-                            zip=int(random.randint(10000, 99000)), phone=rand_str("phone", 20)) for i in range(25)]
+testdata = [Postaldata(country="Albania", name="Jhon Travolta", street="Shev4enka str", num_house="12", city="Drogobych",state="Lviv reg", zip="12300", phone="0978339274")] +\
+           [Postaldata(country="Ukraine", name=rand_str("name", 5), street=rand_str("street", 5),
+                            num_house=rand_str("num", 5), city=rand_str("city", 5), state=rand_str("state", 5),
+                            zip=int(random.randint(10000, 99000)), phone=rand_str("phone", 5)) for i in range(5)]
 
 @pytest.mark.parametrize("postaldata", testdata, ids=[repr(x) for x in testdata])
 def test_add_req_user_data(app, postaldata):
@@ -30,7 +31,7 @@ def test_add_req_user_data(app, postaldata):
     assert old_sorted_list == new_sorted_list
 
 
-
+#py.test
 
 #def test_add_all_user_data(app):
     #old_postaldata_list = app.postaldata.count_postal_data_object_list()

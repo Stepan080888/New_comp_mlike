@@ -21,7 +21,7 @@ class PostaldataHelper:
         wd = self.app.wd
         wd.find_element_by_name("rcrs-country").click()
         Select(wd.find_element_by_name("rcrs-country")).select_by_visible_text(postaldata.country)
-        wd.find_element_by_xpath("//option[@value='Ukraine']").click()
+        #wd.find_element_by_xpath("//option[@value='Ukraine']").click()
         self.check_inputs_for_none(postaldata.name, xpath_1=1, xpath_2="input[1]")
         self.check_inputs_for_none(postaldata.street, xpath_1=1, xpath_2="input[2]")
         self.check_inputs_for_none(postaldata.num_house, xpath_1=1, xpath_2="input[3]")
@@ -67,7 +67,7 @@ class PostaldataHelper:
         self.open_address_page()
         user_action_class = wd.find_elements_by_class_name("users-actions-section")[index]
         user_action_class.find_element_by_xpath("span[3]").click()
-        self.list_objects_cash = None
+        #self.list_objects_cash = None
 
     def delete_first_user_data(self):
         """unnecessary method"""
@@ -95,21 +95,25 @@ class PostaldataHelper:
         self.open_address_page()
         return len(wd.find_elements_by_class_name("users-actions-section"))
 
-    list_objects_cash = None
+    #list_objects_cash = None
+
+    def get_list_single_address_containers(self):
+        wd = self.app.wd
+        return wd.find_elements_by_xpath("//div[contains(@class,'single-address-container')]")
 
     def count_postal_data_object_list(self):
-        if self.list_objects_cash is None:
-            wd = self.app.wd
-            self.open_profile_page()
-            self.open_address_page()
-            self.list_objects_cash = []
-            k = wd.find_elements_by_xpath("//div[contains(@class,'single-address-container')]")
-            global user_data
-            for user_data in k[1:len(k)]:
-                if user_data.find_element_by_xpath("div[1]").text == "DEFAULT":
-                    self.list_objects_cash.append(self.if_default_postal_data(2))
-                else:
-                    self.list_objects_cash.append(self.if_default_postal_data(1))
+        #if self.list_objects_cash is None:
+        #wd = self.app.wd
+        self.open_profile_page()
+        self.open_address_page()
+        self.list_objects_cash = []
+        k = self.get_list_single_address_containers()
+        global user_data
+        for user_data in k[1:len(k)]:
+            if user_data.find_element_by_xpath("div[1]").text == "DEFAULT":
+                self.list_objects_cash.append(self.if_default_postal_data(2))
+            else:
+                self.list_objects_cash.append(self.if_default_postal_data(1))
         return list(self.list_objects_cash)
 
     def split_string_by_comma(self, string_value, number_string):
@@ -132,5 +136,19 @@ class PostaldataHelper:
     def get_postaldata_index_by_postaldata(self, postaldata, postaldatalist):
         index_postaldata = postaldatalist.index(postaldata)
         return index_postaldata
+
+    def set_as_default_postaldata_by_index(self, index):
+        #self.open_profile_page()
+        #self.open_address_page()
+        list_not_default_addresses = self.get_list_single_address_containers()[1:len(self.get_list_single_address_containers())]
+        list_not_default_addresses[index].find_element_by_class_name("users-actions-section").find_element_by_css_selector("span:nth-child(4) > span:nth-child(2)").click()
+
+    def check_the_first_one_is_default(self, index):
+        if self.get_list_single_address_containers()[index].find_element_by_css_selector("div:nth-child(1)").text == "DEFAULT" and \
+                len(self.get_list_single_address_containers()[index].find_element_by_class_name("users-actions-section").find_elements_by_css_selector("span")) <= 3:
+            return True
+        else:
+            return False
+
 
 
