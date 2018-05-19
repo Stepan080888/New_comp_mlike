@@ -1,8 +1,7 @@
 [
-  "test/test_add_user_data.py::test_add_req_user_data[Albania : Jhon Travolta :  12300]",
-  "test/test_add_user_data.py::test_add_req_user_data[Ukraine : nameQqG :  46709]",
-  "test/test_add_user_data.py::test_add_req_user_data[Ukraine : nameYJNi :  72267]",
-  "test/test_add_user_data.py::test_add_req_user_data[Ukraine : nameT2l :  94136]",
-  "test/test_add_user_data.py::test_add_req_user_data[Ukraine : nameP0X :  97450]",
-  "test/test_add_user_data.py::test_add_req_user_data[Ukraine : nameSH :  59052]"
+  "test/test_add_user_data.py::test_add_req_user_data[Nigeria : name2 :  63174]",
+  "test/test_add_user_data.py::test_add_req_user_data[Ukraine : named :  24949]",
+  "test/test_add_user_data.py::test_add_req_user_data[Albania : namedHb :  41204]",
+  "test/test_add_user_data.py::test_add_req_user_data[Aruba : name6 :  61088]",
+  "test/test_add_user_data.py::test_add_req_user_data[Austria : nameL1YH :  98366]"
 ]

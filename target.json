@@ -1,5 +1,12 @@
 {
-  "baseurl": "http://stagingskinstock.gamingdev.io",
-  "username": "no_exp2",
-  "password": "Keplercode344"
+  "web": {
+    "baseurl": "http://stagingskinstock.gamingdev.io",
+    "username": "no_exp2",
+    "password": "Keplercode344"
+  },
+  "db":{
+    "host": "192.168.12.203",
+    "port": "27018",
+    "database":"shopdb"
+  }
 }

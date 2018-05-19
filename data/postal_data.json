@@ -1,0 +1,67 @@
+[
+  {
+    "py/object": "model.postaldata.Postaldata",
+    "address_det": null,
+    "city": "cityZ6T",
+    "country": "Nigeria",
+    "name": "name2",
+    "num_house": "num52Yc",
+    "phone": "phone",
+    "sec_code": null,
+    "state": "stateUK",
+    "street": "streetA",
+    "zip": 63174
+  },
+  {
+    "py/object": "model.postaldata.Postaldata",
+    "address_det": null,
+    "city": "cityWVlc",
+    "country": "Ukraine",
+    "name": "named",
+    "num_house": "numC4HW",
+    "phone": "phone",
+    "sec_code": null,
+    "state": "stater9g",
+    "street": "streetZ",
+    "zip": 24949
+  },
+  {
+    "py/object": "model.postaldata.Postaldata",
+    "address_det": null,
+    "city": "cityrvkc",
+    "country": "Albania",
+    "name": "namedHb",
+    "num_house": "num",
+    "phone": "phoneLI",
+    "sec_code": null,
+    "state": "stateCjU",
+    "street": "streetMEm",
+    "zip": 41204
+  },
+  {
+    "py/object": "model.postaldata.Postaldata",
+    "address_det": null,
+    "city": "cityhF",
+    "country": "Aruba",
+    "name": "name6",
+    "num_house": "numMj",
+    "phone": "phoneL",
+    "sec_code": null,
+    "state": "stateXNpL",
+    "street": "streetR",
+    "zip": 61088
+  },
+  {
+    "py/object": "model.postaldata.Postaldata",
+    "address_det": null,
+    "city": "cityW",
+    "country": "Austria",
+    "name": "nameL1YH",
+    "num_house": "numK6Nr",
+    "phone": "phoneNkj",
+    "sec_code": null,
+    "state": "stateMXj",
+    "street": "streetVG",
+    "zip": 98366
+  }
+]
