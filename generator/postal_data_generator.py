@@ -13,7 +13,7 @@ except getopt.GetoptError as err:
     getopt.usage()
     sys.exit(2)
 
-n = 5
+n = 100
 f = "data/postal_data.json"
 
 for o, a in opts:

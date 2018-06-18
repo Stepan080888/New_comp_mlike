@@ -10,10 +10,11 @@ def rand_str(prefix, maxlen):
 
 
 
-@pytest.mark.parametrize("number_postaldata", range(3,10))
+@pytest.mark.parametrize("number_postaldata", range(2,10))
 def test_set_as_default(app, number_postaldata):
-    while app.postaldata.count_user_data() < number_postaldata:
-        app.postaldata.create_user_data(Postaldata(country="Ukraine", name=rand_str("name", 5), street=rand_str("street", 5), num_house=rand_str("num", 5), city=rand_str("city", 5), state=rand_str("state", 5), zip=int(random.randint(10000, 99000)), phone=rand_str("phone", 5)))
+    app.postaldata.make_postaldata_quantity(number_postaldata, Postaldata(country="Ukraine", name=rand_str("name", 8), street=rand_str("street", 8),
+                                                        num_house=rand_str("num", 8), city=rand_str("city", 8),
+                                                        state=rand_str("state", 8), zip=int(random.randint(10000, 99000)), phone=rand_str("phone", 8)))
     if not app.postaldata.check_the_first_one_is_default(1):
         app.postaldata.set_as_default_postaldata_by_index(0)
     old_postaldata_list = app.postaldata.count_postal_data_object_list()

@@ -47,7 +47,7 @@ def db(request):
         with open(config_file) as f:
             target_db = json.load(f)
             print("2 ", target_db)
-    dbfixture = DbFixture(host=target_db['db']['host'],port=target_db['db']['port'],database=target_db['db']['database'])
+    dbfixture = DbFixture(host=target_db['db']['host'], port=target_db['db']['port'], database=target_db['db']['database'])
     def fin():
         dbfixture.destroy()
     request.addfinalizer(fin)

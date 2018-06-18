@@ -20,7 +20,7 @@ print("4 ", db.collection_names(include_system_collections=False))
 
 postaldata_list_from_db = db.users.find_one({"nickname": "sily1234567890 www123456789"}, {"postalInfo": 1, "_id": 0})['postalInfo']
 for i in postaldata_list_from_db:
-    print(i)
+    print("5: ", i)
 
 #print("5 ", db.users.find_one({"nickname": "sily1234567890 www123456789"}, {"postalInfo": 1, "_id": 0})['postalInfo'])
 

@@ -29,3 +29,7 @@ def load_from_json():
 testdata2 = load_from_json()
 
 
+data_for_creation_postaldata_in_smoke_test = Postaldata(country="Albania", name="Jhon Travolta", street="Shev4enka str", num_house="12", city="Drogobych",state="Lviv reg", zip="12300", phone="0978339274")
+
+
+

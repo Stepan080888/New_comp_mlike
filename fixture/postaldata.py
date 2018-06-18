@@ -21,7 +21,6 @@ class PostaldataHelper:
         wd = self.app.wd
         wd.find_element_by_name("rcrs-country").click()
         Select(wd.find_element_by_name("rcrs-country")).select_by_visible_text(postaldata.country)
-        #wd.find_element_by_xpath("//option[@value='Ukraine']").click()
         self.check_inputs_for_none(postaldata.name, xpath_1=1, xpath_2="input[1]")
         self.check_inputs_for_none(postaldata.street, xpath_1=1, xpath_2="input[2]")
         self.check_inputs_for_none(postaldata.num_house, xpath_1=1, xpath_2="input[3]")
@@ -150,6 +149,11 @@ class PostaldataHelper:
         else:
             return False
 
+    def make_postaldata_quantity(self, quantity, postaldata):
+        while len(self.count_postal_data_object_list()) < quantity:
+            self.create_user_data(postaldata)
+        while len(self.count_postal_data_object_list()) > quantity:
+            self.delete_user_data_by_index(len(self.count_postal_data_object_list())-1)
 
 
 
