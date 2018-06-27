@@ -4,7 +4,7 @@ import datetime
 import pprint
 
 
-client = MongoClient('192.168.12.203', 27018)
+client = MongoClient('', 27018)
 print("1", client)
 
 
