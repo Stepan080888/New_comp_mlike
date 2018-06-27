@@ -4,7 +4,7 @@ import pymongo
 import json
 
 def create_test_data_for_test():
-    client = MongoClient('192.168.12.203', 27018)
+    client = MongoClient('', 27018)
     db = client.shopdb
     product_list_from_db = db.products.find({})
     list_object_products_from_db = []
