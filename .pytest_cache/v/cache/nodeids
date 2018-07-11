@@ -1,4 +1,4 @@
 [
-  "test/test_add_to_cart.py::test_add_to_cart_product[[17 : ROG Claymore : 199.99 :  20]]",
-  "test/test_add_to_cart.py::test_add_to_cart_product[[17 : ROG Claymore : 199.99 :  20, 20 : ROG Gladius II Origin : 1250.0 :  0]]"
+  "test/test_smoke_create_order_steam.py::test_add_product_to_checkout[[17 : ROG Claymore : 199.99 :  20]]",
+  "test/test_smoke_create_order_steam.py::test_add_product_to_checkout[[17 : ROG Claymore : 199.99 :  20, 20 : ROG Gladius II Origin : 1250.0 :  0]]"
 ]

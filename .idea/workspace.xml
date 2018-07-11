@@ -7,17 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7efc39c4-605a-4fad-b8ff-f9af2f138e94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/New_comp_mlike.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/New_comp_mlike.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/carthelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/carthelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/checkouthelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/checkouthelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_to_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_to_cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_to_checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_to_checkout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_smoke_create_order_steam.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_smoke_create_order_steam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_smoke_create_order_steam_py.coverage" NAME="py.test i test_add_to_checkout.py Coverage Results" MODIFIED="1531327326650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_smoke_create_order_steam_py.coverage" NAME="py.test in test_smoke_create_order_steam.py Coverage Results" MODIFIED="1531328747643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_add_to_cart_py.coverage" NAME="py.test in test_add_to_cart.py Coverage Results" MODIFIED="1526741946812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$test_dell_user_data.coverage" NAME="py.test in test_dell_user_data Coverage Results" MODIFIED="1523901910828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$postal_data.coverage" NAME="postal_data Coverage Results" MODIFIED="1526666218664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generator" />
@@ -68,83 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_add_to_checkout.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_add_to_checkout.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_smoke_create_order_steam.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_smoke_create_order_steam.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postaldata.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/postaldata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_product.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/data_product.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_add_to_cart.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_add_to_cart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check_db_connection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check_db_connection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -152,11 +72,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/product.py">
+      <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="555">
+              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fixture/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,7 +122,6 @@
       <list>
         <option value="$PROJECT_DIR$/test_dell_user_data.py" />
         <option value="D:/ilyk st/python lessons/m-like/m-like-tests/test/test_add_user_data.py" />
-        <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="D:/ilyk st/python lessons/GitHub - Copy lesson 30   20.03/python_training/fixture/application.py" />
         <option value="$PROJECT_DIR$/model/postaldata.py" />
         <option value="$PROJECT_DIR$/target.json.py" />
@@ -215,6 +149,7 @@
         <option value="$PROJECT_DIR$/test/test_smoke_create_order_steam.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/checkouthelper.py" />
+        <option value="$PROJECT_DIR$/fixture/session.py" />
       </list>
     </option>
   </component>
@@ -237,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +203,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,26 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_add_to_cart.py (1)">
-    <configuration name="check_db_connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="New_comp_mlike" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_db_connection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in test_smoke_create_order_steam.py">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="New_comp_mlike" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -483,6 +399,21 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_dell_user_data.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="py.test in test_smoke_create_order_steam.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="New_comp_mlike" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Ilyk-st\New_comp_mlike\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_smoke_create_order_steam.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="pytest in test_add_user_data" type="tests" factoryName="py.test">
       <module name="New_comp_mlike" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -519,19 +450,19 @@
       <item itemvalue="Python tests.py.test in test_dell_use_data" />
       <item itemvalue="Python tests.py.test for test_add_to_cart.test_add_to_cart_product" />
       <item itemvalue="Python tests.py.test in test_add_to_cart.py" />
-      <item itemvalue="Python.check_db_connection" />
       <item itemvalue="Python tests.py.test for test_smoke_create_order_steam.test_add_product_to_checkout" />
       <item itemvalue="Python tests.py.test in test_add_to_checkout.py" />
       <item itemvalue="Python tests.py.test i test_add_to_checkout.py" />
       <item itemvalue="Python tests.py.test in test_add_to_cart.py (1)" />
+      <item itemvalue="Python tests.py.test in test_smoke_create_order_steam.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in test_smoke_create_order_steam.py" />
         <item itemvalue="Python tests.py.test in test_add_to_cart.py (1)" />
         <item itemvalue="Python tests.py.test i test_add_to_checkout.py" />
         <item itemvalue="Python tests.py.test in test_add_to_checkout.py" />
         <item itemvalue="Python tests.py.test for test_smoke_create_order_steam.test_add_product_to_checkout" />
-        <item itemvalue="Python.check_db_connection" />
       </list>
     </recent_temporary>
   </component>
@@ -549,15 +480,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_smoke_create_order_steam_py - 2018.07.11 at 19h 38m 05s.xml">
-      <configuration name="py.test in test_smoke_create_order_steam.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_smoke_create_order_steam_test_add_product_to_checkout - 2018.07.11 at 19h 38m 17s.xml">
-      <configuration name="py.test for test_smoke_create_order_steam.test_add_product_to_checkout" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_add_to_cart_test_add_to_cart_product - 2018.07.11 at 19h 38m 31s.xml">
-      <configuration name="py.test for test_add_to_cart.test_add_to_cart_product" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_dell_use_data - 2018.07.11 at 19h 38m 36s.xml">
       <configuration name="py.test in test_dell_use_data" configurationId="tests" />
     </history-entry>
@@ -579,6 +501,15 @@
     <history-entry file="py_test_i_test_add_to_checkout_py - 2018.07.11 at 19h 42m 07s.xml">
       <configuration name="py.test i test_add_to_checkout.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_add_user_data - 2018.07.11 at 19h 46m 08s.xml">
+      <configuration name="pytest in test_add_user_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_add_to_cart_py_(1) - 2018.07.11 at 19h 48m 18s.xml">
+      <configuration name="py.test in test_add_to_cart.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_smoke_create_order_steam_py - 2018.07.11 at 20h 03m 34s.xml">
+      <configuration name="py.test in test_smoke_create_order_steam.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,14 +529,14 @@
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3625541" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.36165577" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7316017" visible="true" weight="0.14285715" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7298475" visible="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info id="Structure" order="1" sideWeight="0.2564935" side_tool="true" weight="0.124200426" />
-      <window_info id="Favorites" order="2" sideWeight="0.26839826" side_tool="true" visible="true" weight="0.14285715" />
+      <window_info id="Structure" order="1" sideWeight="0.2701525" side_tool="true" visible="true" weight="0.1444563" />
+      <window_info id="Favorites" order="2" sideWeight="0.27133107" side_tool="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.33660132" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -703,46 +634,6 @@
           <option name="timeStamp" value="526" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
-          <line>86</line>
-          <option name="timeStamp" value="868" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_smoke_create_order_steam.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="869" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/conftest.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="871" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/conftest.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="872" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/conftest.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="874" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/conftest.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="875" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="876" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="877" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/check_db_connection.py</url>
           <line>14</line>
           <option name="timeStamp" value="878" />
@@ -752,13 +643,8 @@
           <line>15</line>
           <option name="timeStamp" value="879" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="880" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="882" />
+      <option name="time" value="887" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -911,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/http/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -960,16 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/checkouthelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="34" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_dell_user_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -979,7 +848,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/data_product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="144">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="38" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
@@ -996,40 +865,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_to_cart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="144">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check_db_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1041,13 +880,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/check_db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/checkouthelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/postaldata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_smoke_create_order_steam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1055,18 +920,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_smoke_create_order_steam.py">
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="555">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>

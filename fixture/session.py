@@ -1,6 +1,8 @@
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
+from selenium.webdriver.support.ui import WebDriverWait
+
 class SessionHelper:
     def __init__(self, app):
         self.app = app
@@ -9,6 +11,7 @@ class SessionHelper:
     def log_in(self, username, password):
         wd = self.app.wd
         wd.find_element_by_class_name("sign-in-title").click()
+        WebDriverWait(wd, 10).until(lambda wd: wd.find_element_by_class_name('steam-button')).click()
         self.ensure_steam_log_in(username, password)
 
     def ensure_log_in(self, username, password):
