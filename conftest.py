@@ -2,6 +2,7 @@ import pytest
 from fixture.application import Application
 import json
 import os.path
+from pymongo import MongoClient
 from fixture.db import DbFixture
 
 fixture = None
@@ -47,7 +48,9 @@ def db(request):
         with open(config_file) as f:
             target_db = json.load(f)
             print("2 ", target_db)
-    dbfixture = DbFixture(host=target_db['db']['host'], port=target_db['db']['port'], database=target_db['db']['database'])
+    dbfixture = MongoClient('192.168.12.203', 27018).shopdb
+    #dbfixture = DbFixture(host=target_db['db']['host'], port=target_db['db']['port'], database=target_db['db']['database'])
+    print(dbfixture)
     def fin():
         dbfixture.destroy()
     request.addfinalizer(fin)

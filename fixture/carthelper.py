@@ -26,13 +26,14 @@ class CartHelper:
         wd = self.app.wd
         wd.find_element_by_class_name("add-to-cart").click()
 
-    def add_to_cart_product(self, product_number, quantity):
-        self.app.open_home_page()
-        self.open_product_page(product_number)
-        self.select_quantity_of_product(quantity)
-        self.list_shold_add_to_cart = self.get_product_object_from_product_page()
-        self.click_add_to_cart_button()
-        return list(self.list_shold_add_to_cart)
+    def add_to_cart_product(self, products):
+        for product in products:
+            self.app.open_home_page()
+            self.open_product_page(product.id)
+            self.select_quantity_of_product(product.quantity)
+            #self.list_shold_add_to_cart = self.get_product_object_from_product_page()
+            self.click_add_to_cart_button()
+        #return list(self.list_shold_add_to_cart)
 
     def open_cart_page(self):
         wd = self.app.wd
@@ -66,19 +67,20 @@ class CartHelper:
         for product_row in wd.find_elements_by_class_name("cart-product-row"):
             product_name = product_row.find_element_by_class_name('cart-product-text').find_element_by_tag_name("div").text
             product_price = product_row.find_element_by_class_name('cart-product-price').text
-            product_quantity = product_row.find_element_by_tag_name("select").get_attribute("value")
+            product_quantity = int(product_row.find_element_by_tag_name("select").get_attribute("value"))
             self.list_in_cart.append(Product(name=product_name, price=product_price, quantity=product_quantity))
         #self.list_of_products_by_one = []
         return list(self.list_in_cart)
 
-    def remove_products_from_cart(self):
+    def remove_products_from_cart(self, number):
         wd = self.app.wd
-        self.open_cart_page()
-        self.list_of_products_by_one = []
-        list_items_in_the_cart = wd.find_elements_by_class_name("cart-product")
-        for product_row in range(len(list_items_in_the_cart)):
-            wd.find_element_by_class_name("cart-item-actions").find_element_by_xpath("span[1]").click()
-            time.sleep(1)
+        if number == 0:
+            self.open_cart_page()
+            self.list_of_products_by_one = []
+            list_items_in_the_cart = wd.find_elements_by_class_name("cart-product")
+            for product_row in range(len(list_items_in_the_cart)):
+                wd.find_element_by_class_name("cart-item-actions").find_element_by_xpath("span[1]").click()
+                time.sleep(1)
         return True
 
     def get_price_all_product_from_car(self):

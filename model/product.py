@@ -1,5 +1,5 @@
 class Product:
-    def __init__(self, name, price, quantity, id):
+    def __init__(self, name, price, quantity, id=None):
         self.name = name
         self.price = price
         self.quantity = quantity
@@ -9,7 +9,7 @@ class Product:
         return "%s : %s : %s :  %s" % (self.id, self.name, self.price, self.quantity)
 
     def __eq__(self, other):
-        return self.name == other.name and self.quantity == other.quantity and self.price == other.price
+        return self.name == other.name and self.quantity == other.quantity# and self.price == other.price
 
     def sort_param_product_quantity(self):
         return int(self.quantity)

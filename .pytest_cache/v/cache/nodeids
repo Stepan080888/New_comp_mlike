@@ -1,9 +1,4 @@
 [
-  "test/test_add_to_cart.py::test_add_to_cart_product[1]",
-  "test/test_add_to_cart.py::test_add_to_cart_product[2]",
-  "test/test_add_to_cart.py::test_add_to_cart_product[3]",
-  "test/test_add_to_cart.py::test_add_to_cart_product[4]",
-  "test/test_add_to_cart.py::test_add_to_cart_product[5]",
-  "test/test_add_to_cart.py::test_add_to_cart_product[6]",
-  "test/test_add_to_cart.py::test_add_to_cart_product[7]"
+  "test/test_add_to_cart.py::test_add_to_cart_product[[17 : ROG Claymore : 199.99 :  20]]",
+  "test/test_add_to_cart.py::test_add_to_cart_product[[17 : ROG Claymore : 199.99 :  20, 20 : ROG Gladius II Origin : 1250.0 :  0]]"
 ]

@@ -3,11 +3,22 @@
   <component name="AutoTestManager">
     <enabled-run-configurations>
       <run-configuration type="tests" name="py.test in test_dell_use_data" />
-      <run-configuration type="tests" name="py.test in test_add_user_data.py" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7efc39c4-605a-4fad-b8ff-f9af2f138e94" name="Default" comment="" />
+    <list default="true" id="7efc39c4-605a-4fad-b8ff-f9af2f138e94" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/New_comp_mlike.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/New_comp_mlike.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/carthelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/carthelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/checkouthelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/checkouthelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_to_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_to_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_to_checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_to_checkout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_smoke_create_order_steam.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_smoke_create_order_steam.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,36 +27,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_smoke_create_order_steam_py.coverage" NAME="py.test i test_add_to_checkout.py Coverage Results" MODIFIED="1531327326650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_add_to_cart_py.coverage" NAME="py.test in test_add_to_cart.py Coverage Results" MODIFIED="1526741946812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$test_dell_user_data.coverage" NAME="py.test in test_dell_user_data Coverage Results" MODIFIED="1523901910828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$postal_data.coverage" NAME="postal_data Coverage Results" MODIFIED="1526666218664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generator" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_add_to_cart_test_add_to_cart.coverage" NAME="py.test for test_add_to_cart.test_add_to_cart Coverage Results" MODIFIED="1526741906937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_add_to_cart_py__1_.coverage" NAME="py.test in test_add_to_cart.py Coverage Results" MODIFIED="1529065036890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_add_to_cart_py__1_.coverage" NAME="py.test in test_add_to_cart.py (1) Coverage Results" MODIFIED="1531327673245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$data_postal_data.coverage" NAME="data_postal_data Coverage Results" MODIFIED="1526739441484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_add_user_data_test_add_req_user_data.coverage" NAME="py.test for test_add_user_data.test_add_req_user_data Coverage Results" MODIFIED="1525457856912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_dell_user_data_test_del_some_user_data.coverage" NAME="py.test for test_dell_user_data.test_del_some_user_data Coverage Results" MODIFIED="1526319113501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$test_modify_user_data.coverage" NAME="test_modify_user_data Coverage Results" MODIFIED="1525452318688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$check_db_connection.coverage" NAME="check_db_connection Coverage Results" MODIFIED="1529085958084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_add_to_checkout_py.coverage" NAME="py.test in test_add_to_checkout.py Coverage Results" MODIFIED="1529083196570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$check_db_connection.coverage" NAME="check_db_connection Coverage Results" MODIFIED="1529691652623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_smoke_create_order_steam_test_add_product_to_checkout.coverage" NAME="py.test for test_smoke_create_order_steam.test_add_product_to_checkout Coverage Results" MODIFIED="1531327096434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_add_to_checkout_py.coverage" NAME="py.test in test_add_to_checkout.py Coverage Results" MODIFIED="1529689426002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1523985880128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$test_add_user_data__1_.coverage" NAME="test_add_user_data (1) Coverage Results" MODIFIED="1523988433466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test.coverage" NAME="py.test in test Coverage Results" MODIFIED="1526454561621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$postal_data_generator.coverage" NAME="postal_data_generator Coverage Results" MODIFIED="1526739559236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generator" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$pytest_in_test_add_user_data.coverage" NAME="pytest in test_add_user_data Coverage Results" MODIFIED="1525796680548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$pytest_in_test_add_user_data.coverage" NAME="pytest in test_add_user_data Coverage Results" MODIFIED="1531327567669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$test_add_user_data.coverage" NAME="test_add_user_data Coverage Results" MODIFIED="1523987519157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ilyk st/python lessons/m-like/m-like-tests/test" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$Unittests_in__pytest_cache.coverage" NAME="Unittests in .pytest_cache Coverage Results" MODIFIED="1523987767539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/.pytest_cache" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_dell_use_data.coverage" NAME="py.test in test_dell_use_data Coverage Results" MODIFIED="1526742243146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$pytest_in_test_modify_user_data.coverage" NAME="pytest in test_modify_user_data Coverage Results" MODIFIED="1526740866906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_dell_use_data.coverage" NAME="py.test in test_dell_use_data Coverage Results" MODIFIED="1531327115600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_add_user_data_py.coverage" NAME="py.test in test_add_user_data.py Coverage Results" MODIFIED="1529081146315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$pytest_in_test_modify_user_data.coverage" NAME="pytest in test_modify_user_data Coverage Results" MODIFIED="1531327229761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_dell_user_data_test_del_user_data.coverage" NAME="py.test for test_dell_user_data.test_del_user_data Coverage Results" MODIFIED="1525365491626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$Unnamed.coverage" NAME="py.test in test_dell_use_data Coverage Results" MODIFIED="1523985969404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_dell_user_data.coverage" NAME="py.test in test_dell_user_data Coverage Results" MODIFIED="1523987000547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$checkouthelper.coverage" NAME="checkouthelper Coverage Results" MODIFIED="1529687302862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fixture" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_add_user_data_test_add_all_user_data.coverage" NAME="py.test for test_add_user_data.test_add_all_user_data Coverage Results" MODIFIED="1524642186413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_add_to_checkout_test_add_product_to_checkout.coverage" NAME="py.test for test_add_to_checkout.test_add_product_to_checkout Coverage Results" MODIFIED="1528911923722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_add_to_cart_test_add_to_cart_product.coverage" NAME="py.test for test_add_to_cart.test_add_to_cart_product Coverage Results" MODIFIED="1529064963770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_add_to_checkout_test_add_product_to_checkout.coverage" NAME="py.test for test_add_to_checkout.test_add_product_to_checkout Coverage Results" MODIFIED="1529687307541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_add_to_cart_test_add_to_cart_product.coverage" NAME="py.test for test_add_to_cart.test_add_to_cart_product Coverage Results" MODIFIED="1531327119352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$pytest_intest_modify_user_data.coverage" NAME="pytest intest_modify_user_data Coverage Results" MODIFIED="1523902838947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_set_as_default_address_test_set_as_default.coverage" NAME="py.test for test_set_as_default_address.test_set_as_default Coverage Results" MODIFIED="1526402646425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/New_comp_mlike$data_product.coverage" NAME="data_product Coverage Results" MODIFIED="1529345522899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/New_comp_mlike$data_product.coverage" NAME="data_product Coverage Results" MODIFIED="1529347644949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_in_test_set_as_default_address_py.coverage" NAME="py.test in test_set_as_default_address.py Coverage Results" MODIFIED="1526738774743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_comp_mlike$py_test_for_test_add_to_cart_test_add_to_cart_product2.coverage" NAME="py.test for test_add_to_cart.test_add_to_cart_product2 Coverage Results" MODIFIED="1526818903160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -54,11 +68,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data_product.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_add_to_checkout.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_add_to_checkout.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_smoke_create_order_steam.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_smoke_create_order_steam.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postaldata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/postaldata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_product.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/data_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state>
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -69,61 +119,10 @@
       <file leaf-file-name="test_add_to_cart.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_add_to_cart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state>
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carthelper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/carthelper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="86" column="64" lean-forward="true" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/product.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_postal_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/data_postal_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_add_user_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_add_user_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="39" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +131,8 @@
       <file leaf-file-name="check_db_connection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_db_connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state>
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -144,11 +143,20 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="42" />
+            <state>
+              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="35" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/product.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -167,6 +175,8 @@
       <find>open_profile_page</find>
       <find>print</find>
       <find>single-address-container</find>
+      <find>get_product_object_from_product_page</find>
+      <find>add_product_to_checkout_page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,19 +202,19 @@
         <option value="$PROJECT_DIR$/fixture/producthelper.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/target.json" />
-        <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/fixture/carthelper.py" />
-        <option value="$PROJECT_DIR$/test/test_smoke_create_order_steam.py" />
         <option value="$PROJECT_DIR$/fixture/postaldata.py" />
         <option value="$PROJECT_DIR$/data/data_postal_data.py" />
-        <option value="$PROJECT_DIR$/test/test_add_to_checkout.py" />
-        <option value="$PROJECT_DIR$/fixture/checkouthelper.py" />
         <option value="$PROJECT_DIR$/data/products_from_db.py" />
         <option value="$PROJECT_DIR$/check_db_connection.py" />
         <option value="$PROJECT_DIR$/fixture/db.py" />
-        <option value="$PROJECT_DIR$/model/product.py" />
+        <option value="$PROJECT_DIR$/fixture/carthelper.py" />
         <option value="$PROJECT_DIR$/test/test_add_to_cart.py" />
+        <option value="$PROJECT_DIR$/model/product.py" />
         <option value="$PROJECT_DIR$/data/data_product.py" />
+        <option value="$PROJECT_DIR$/test/test_add_to_checkout.py" />
+        <option value="$PROJECT_DIR$/test/test_smoke_create_order_steam.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/fixture/checkouthelper.py" />
       </list>
     </option>
   </component>
@@ -217,28 +227,23 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2104" />
-    <option name="y" value="2" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1913" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="New_comp_mlike" type="b2602c69:ProjectViewProjectNode" />
               <item name="New_comp_mlike" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="New_comp_mlike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="New_comp_mlike" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="New_comp_mlike" type="b2602c69:ProjectViewProjectNode" />
@@ -264,15 +269,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_add_user_data.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -294,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_product">
+  <component name="RunManager" selected="Python tests.py.test in test_add_to_cart.py (1)">
     <configuration name="check_db_connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="New_comp_mlike" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,25 +313,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_db_connection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="data_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="New_comp_mlike" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/data_product.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,11 +344,56 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;--browser\u003d\&quot;chrome\&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;browser\u003d&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_to_cart.test_add_to_cart_product&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test in test_add_to_cart.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_smoke_create_order_steam.test_add_product_to_checkout" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="New_comp_mlike" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Ilyk-st\New_comp_mlike\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_smoke_create_order_steam.test_add_product_to_checkout&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test i test_add_to_checkout.py" type="tests" factoryName="py.test" temporary="true">
+      <module name="New_comp_mlike" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Ilyk-st\New_comp_mlike\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--browser\u003d\&quot;chrome\&quot; -v&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_to_checkout.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="py.test in test_add_to_cart.py (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="New_comp_mlike" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Ilyk-st\New_comp_mlike\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_to_cart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="py.test in test_add_to_cart.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="New_comp_mlike" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,7 +419,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--browser\u003d\&quot;chrome\&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--browser\u003d\&quot;chrome\&quot; -v&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_to_cart.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
@@ -434,23 +464,8 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--browser\u003d\&quot;chrome\&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--browser\u003d\&quot;chrome\&quot; -v&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_to_checkout.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="py.test in test_add_user_data.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="New_comp_mlike" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--browser\u003d\&quot;chrome\&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_user_data.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="py.test in test_dell_use_data" type="tests" factoryName="py.test">
@@ -472,7 +487,7 @@
       <module name="New_comp_mlike" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Ilyk-st\New_comp_mlike\env\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Ilyk-st\New_comp_mlike\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -480,8 +495,8 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--browser\u003d\&quot;chrome\&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_user_data.py&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_user_data.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="pytest in test_modify_user_data" type="tests" factoryName="py.test">
       <module name="New_comp_mlike" />
@@ -504,18 +519,19 @@
       <item itemvalue="Python tests.py.test in test_dell_use_data" />
       <item itemvalue="Python tests.py.test for test_add_to_cart.test_add_to_cart_product" />
       <item itemvalue="Python tests.py.test in test_add_to_cart.py" />
-      <item itemvalue="Python tests.py.test in test_add_to_checkout.py" />
-      <item itemvalue="Python tests.py.test in test_add_user_data.py" />
       <item itemvalue="Python.check_db_connection" />
-      <item itemvalue="Python.data_product" />
+      <item itemvalue="Python tests.py.test for test_smoke_create_order_steam.test_add_product_to_checkout" />
+      <item itemvalue="Python tests.py.test in test_add_to_checkout.py" />
+      <item itemvalue="Python tests.py.test i test_add_to_checkout.py" />
+      <item itemvalue="Python tests.py.test in test_add_to_cart.py (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_product" />
-        <item itemvalue="Python.check_db_connection" />
+        <item itemvalue="Python tests.py.test in test_add_to_cart.py (1)" />
+        <item itemvalue="Python tests.py.test i test_add_to_checkout.py" />
         <item itemvalue="Python tests.py.test in test_add_to_checkout.py" />
-        <item itemvalue="Python tests.py.test in test_add_user_data.py" />
-        <item itemvalue="Python tests.py.test in test_add_to_cart.py" />
+        <item itemvalue="Python tests.py.test for test_smoke_create_order_steam.test_add_product_to_checkout" />
+        <item itemvalue="Python.check_db_connection" />
       </list>
     </recent_temporary>
   </component>
@@ -533,35 +549,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 19h 57m 58s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_smoke_create_order_steam_py - 2018.07.11 at 19h 38m 05s.xml">
+      <configuration name="py.test in test_smoke_create_order_steam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 01m 33s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_smoke_create_order_steam_test_add_product_to_checkout - 2018.07.11 at 19h 38m 17s.xml">
+      <configuration name="py.test for test_smoke_create_order_steam.test_add_product_to_checkout" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 03m 47s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_to_cart_test_add_to_cart_product - 2018.07.11 at 19h 38m 31s.xml">
+      <configuration name="py.test for test_add_to_cart.test_add_to_cart_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 06m 11s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_dell_use_data - 2018.07.11 at 19h 38m 36s.xml">
+      <configuration name="py.test in test_dell_use_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 08m 51s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_add_to_cart_test_add_to_cart_product - 2018.07.11 at 19h 38m 39s.xml">
+      <configuration name="py.test for test_add_to_cart.test_add_to_cart_product" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 11m 22s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_modify_user_data - 2018.07.11 at 19h 39m 41s.xml">
+      <configuration name="pytest in test_modify_user_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 13m 19s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_modify_user_data - 2018.07.11 at 19h 39m 47s.xml">
+      <configuration name="pytest in test_modify_user_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 18m 05s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_modify_user_data - 2018.07.11 at 19h 40m 30s.xml">
+      <configuration name="pytest in test_modify_user_data" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 19m 45s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_smoke_create_order_steam_py - 2018.07.11 at 19h 41m 05s.xml">
+      <configuration name="py.test for test_smoke_create_order_steam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_add_to_checkout_py - 2018.06.15 at 20h 26m 54s.xml">
-      <configuration name="py.test in test_add_to_checkout.py" configurationId="tests" />
+    <history-entry file="py_test_i_test_add_to_checkout_py - 2018.07.11 at 19h 42m 07s.xml">
+      <configuration name="py.test i test_add_to_checkout.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -574,30 +590,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1913" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010661" side_tool="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.33660132" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.4989339" visible="true" weight="0.14052288" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.7414449" visible="true" weight="0.1337953" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3625541" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7316017" visible="true" weight="0.14285715" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info id="Structure" order="2" sideWeight="0.2564935" side_tool="true" weight="0.124200426" />
-      <window_info id="Favorites" order="0" sideWeight="0.25855514" side_tool="true" visible="true" weight="0.1337953" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.33660132" />
+      <window_info id="Structure" order="1" sideWeight="0.2564935" side_tool="true" weight="0.124200426" />
+      <window_info id="Favorites" order="2" sideWeight="0.26839826" side_tool="true" visible="true" weight="0.14285715" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.33660132" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32943678" />
     </layout>
   </component>
@@ -688,131 +704,85 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="718" />
+          <line>86</line>
+          <option name="timeStamp" value="868" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="719" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="721" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="722" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_add_to_checkout.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="786" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="792" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="793" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="794" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="795" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="796" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="797" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="798" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="799" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="800" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="801" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_add_to_checkout.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="802" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="811" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="813" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="814" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/postaldata.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="815" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data/data_product.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="819" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data/data_product.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="820" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data/data_product.py</url>
+          <url>file://$PROJECT_DIR$/test/test_smoke_create_order_steam.py</url>
           <line>19</line>
-          <option name="timeStamp" value="821" />
+          <option name="timeStamp" value="869" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/conftest.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="871" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/conftest.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="872" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/conftest.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="874" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/conftest.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="875" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="876" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="877" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/check_db_connection.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="878" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/check_db_connection.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="879" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fixture/checkouthelper.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="880" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="822" />
+      <option name="time" value="882" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+    <entry file="file://$PROJECT_DIR$/model/product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data_postal_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -873,9 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,11 +852,6 @@
     <entry file="file://D:/ilyk st/python lessons/m-like/m-like-tests/fixture/session.py" />
     <entry file="file://D:/ilyk st/python lessons/m-like/m-like-tests/fixture/postaldata.py" />
     <entry file="file://D:/ilyk st/python lessons/m-like/m-like-tests/conftest.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291" />
-      </provider>
-    </entry>
     <entry file="file://D:/ilyk st/python lessons/m-like/m-like-tests/test/test_add_user_data.py" />
     <entry file="file://D:/ilyk st/python lessons/GitHub/python_training/fixture/application.py" />
     <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/_pytest/python.py">
@@ -935,24 +897,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_dell_user_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-280447657/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/postaldata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -967,63 +915,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_smoke_create_order_steam.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/http/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="258" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_to_checkout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="96" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/checkouthelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/postaldata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1034,79 +932,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_user_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="39" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_db_connection.py">
+    <entry file="file://$PROJECT_DIR$/model/postaldata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/postal_data.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_postal_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/carthelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="86" column="64" lean-forward="true" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
+        <state relative-caret-position="347">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/checkouthelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="34" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_dell_user_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data_postal_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_to_cart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state>
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_product.py">
+    <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state>
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="35" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_db_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/postaldata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_to_checkout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_smoke_create_order_steam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

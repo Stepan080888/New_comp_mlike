@@ -1,6 +1,8 @@
 {
   "test/test_add_to_cart.py::test_add_to_cart_product2": true,
   "test/test_add_to_cart.py::test_add_to_cart_product3": true,
+  "test/test_add_to_cart.py::test_add_to_cart_product[[17 : ROG Claymore : 199.99 :  20, 20 : ROG Gladius II Origin : 1250.0 :  0]]": true,
+  "test/test_add_to_cart.py::test_add_to_cart_product[[17 : ROG Claymore : 199.99 :  20]]": true,
   "test/test_add_to_checkout.py::test_add_product_to_checkout[1]": true,
   "test/test_add_to_checkout.py::test_add_product_to_checkout[2]": true,
   "test/test_add_to_checkout.py::test_add_product_to_checkout[3]": true,

@@ -20,9 +20,6 @@ class CheckoutHelper(CartHelper):
         wd = self.app.wd
         return float(wd.find_elements_by_class_name("total-price")[number].text[1:].replace(",", ""))
 
-    def get_product_object_from_checkout_page(self):
-        pass
-
     def click_change_buttons(self, number):
         wd = self.app.wd
         wd.find_elements_by_class_name('change-checkout-block-details')[number].click()
@@ -60,8 +57,8 @@ class CheckoutHelper(CartHelper):
         product_list_on_checkout = []
         for product_item in wd.find_elements_by_class_name('checkout-product-item'):
             product_name = product_item.find_element_by_class_name('product-name').text
-            product_price = self.add_fractional_part(product_item.find_element_by_class_name('product-price').text)
-            product_quantity = product_item.find_element_by_tag_name("select").get_attribute("value")
+            product_price = self.add_fractional_part(product_item.find_element_by_class_name('product-price').text[1:])
+            product_quantity = int(product_item.find_element_by_tag_name("select").get_attribute("value"))
             product_list_on_checkout.append(Product(name=product_name, price=product_price, quantity=product_quantity))
         self.list_of_products_by_one = []
         return product_list_on_checkout
@@ -81,6 +78,16 @@ class CheckoutHelper(CartHelper):
         self.app.postaldata.fill_in_user_data_form(postaldata)
         wd.execute_script("window.history.go(-1)")
         self.check_the_existent_shipping_inf()
+
+    def check_enough_bal(self, db):
+        wd = self.app.wd
+        user_balance = float(wd.find_element_by_class_name('amount').text[1:])
+        order_total_amount = self.get_order_total_from_chackout(0)
+        if order_total_amount * 5 != user_balance:
+            k = db.users.find({"steamId": "76561198824314514"})
+            #db.users.update({ $set: {'balance': '120'} })
+            for i in k:
+                print(i['balance'])
 
 
 
