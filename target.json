@@ -5,8 +5,8 @@
     "password": "Keplercode344"
   },
   "db":{
-    "host": "192.168.12.203",
-    "port": "27018",
+    "host": "",
+    "port": "",
     "database":"shopdb"
   }
 }

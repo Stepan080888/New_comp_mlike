@@ -1003,6 +1003,5 @@
   "test/test_add_user_data.py::test_add_req_user_data[namezz:16804]": true,
   "test/test_add_user_data.py::test_add_req_user_data[namezz:ziprEoWNCyy2I]": true,
   "test/test_set_as_default_address.py::test_set_as_default[1]": true,
-  "test/test_smoke_create_order_steam.py::test_add_product_to_checkout[[17 : ROG Claymore : 199.99 :  20, 20 : ROG Gladius II Origin : 1250.0 :  0]]": true,
-  "test/test_smoke_create_order_steam.py::test_add_product_to_checkout[[17 : ROG Claymore : 199.99 :  20]]": true
+  "test/test_smoke_create_order_steam.py::test_add_product_to_checkout[[17 : ROG Claymore : 199.99 :  20, 20 : ROG Gladius II Origin : 1250.0 :  0]]": true
 }

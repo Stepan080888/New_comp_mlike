@@ -3,6 +3,10 @@ from pymongo import MongoClient
 import pymongo
 import json
 
+
+#def create_test_data_for_test(number_embeded_lists):
+    #client = MongoClient('192.168.12.203', 27018)
+
 def create_test_data_for_test(number_embeded_lists):
     client = MongoClient('192.168.12.203', 27018)
     db = client.shopdb
@@ -21,4 +25,9 @@ def create_test_data_for_test(number_embeded_lists):
     return list_in_list
 
 
+
 product_lists = create_test_data_for_test(2)
+
+a = create_test_data_for_test(3)[0:5]
+print(a)
+
